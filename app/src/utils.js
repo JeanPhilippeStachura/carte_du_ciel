@@ -38,7 +38,7 @@ export async function fiftyHottestStars(csvFile) {
       const name = row[idStarColumn];
       const temperature = -15833.33 * ci + 33666.67; // Calcul de la température
 
-      return { name, temperature }; // Retourne un objet avec nom et température
+      return { name, temperature }; 
     });
 
     return hottestStars; // Retourne le tableau structuré
